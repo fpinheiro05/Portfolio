@@ -1,0 +1,37 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #141c2f;
+}
+
+.header{
+    position: sticky;
+    text-align: center;
+    background-color: lightgray;
+}
+
+section.middle-page{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.zone_gauche{
+    left: 0;
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+}
+
+.zone_droite{
+    right: 0;
+    height: 500px;
+    width: 1500px;
+    background-color: red;
+}
+
+.footer{
+    background-color: lightblue;
+}
