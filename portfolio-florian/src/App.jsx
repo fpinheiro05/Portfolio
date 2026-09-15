@@ -64,7 +64,7 @@ const projects = [
     url: "https://github.com/fpinheiro05/BatailleNavale",
     competencies: ["C1", "C5", "C6"],
     notes: {
-      C1: "[Preuve à détailler : quelles fonctionnalités as-tu développées, de la conception à l'implémentation ?]",
+      C1: "Développement de fonction pour le systeme de victoire, placements des bateaux, ...",
       C5: "Projet réalisé en binôme, avec un suivi organisé via un board Trello pour planifier les étapes de développement.",
       C6: "Répartition du travail par fonctionnalités au sein du binôme, chacun prenant en charge certaines fonctions du jeu.",
     },
@@ -77,8 +77,8 @@ const projects = [
     url: "https://github.com/fpinheiro05/Terraria-Like",
     competencies: ["C1", "C2", "C5", "C6"],
     notes: {
-      C1: "[Preuve à détailler : quelles fonctionnalités du jeu as-tu développées ?]",
-      C2: "[Preuve à détailler : quels algorithmes as-tu conçus ou choisis (génération de monde, collisions, IA...) ?]",
+      C1: "Développement de la classe Personnage et Joueur, ainsi que les sous classes",
+      C2: "Implémentation de l'algorithme de recherche en largeur (BFS) pour trouver le joueur.",
       C5: "Suivi du projet via Trello sur les deux semestres, avec notamment le développement de la classe Personnage.",
       C6: "Travail en équipe de 3, avec une implication particulière sur le refactoring du code.",
     },
@@ -91,8 +91,8 @@ const projects = [
     url: "https://github.com/fpinheiro05/SiteWebBuvetteAssociative",
     competencies: ["C1", "C2", "C4", "C5", "C6"],
     notes: {
-      C1: "[Preuve à détailler : quelles fonctionnalités du site as-tu développées, des exigences à la mise en production ?]",
-      C2: "[Preuve à détailler : quels traitements ou algorithmes as-tu optimisés (gestion des stocks, calculs, recherche...) ?]",
+      C1: "Fonctionnalité du choix du fournisseur",
+      C2: "Gestion des stocks",
       C4: "Conception d'un modèle de données relationnel pour la gestion de la buvette, avec une attention portée à la sécurité des données.",
       C5: "Cahier des charges fourni par l'association, avec un suivi de projet organisé autour de réunions régulières.",
       C6: "Implication sur l'ensemble de la chaîne, à la fois back-end et front-end.",
@@ -178,19 +178,14 @@ export default function Portfolio() {
 
       <header className="mx-auto max-w-[1040px] px-5 sm:px-7">
         <div className="motion-reduce:animate-none max-w-full animate-rise py-10 sm:py-14 md:max-w-2xl md:py-16">
-          <p className="mb-4 font-mono text-xs text-accent before:content-['>_'] sm:text-[13px]">
-            SELECT profil FROM etudiants WHERE nom = 'Florian PINHEIRO';
-          </p>
           <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl md:text-[44px]">
             Florian PINHEIRO
           </h1>
           <p className="mb-5 text-base font-medium text-accent sm:text-lg">
-            Étudiant en BUT Informatique — Parcours Administration, gestion et exploitation
-            des données
+            Étudiant en BUT Informatique — Parcours Administration, gestion et exploitation des données
           </p>
           <p className="mb-7 max-w-xl text-sm text-muted sm:text-base">
-            Je conçois des applications, j'administre des systèmes et je structure des
-            données — du cahier des charges jusqu'à la mise en production.
+            Exploitaion et Administration de Bases de données, Visualisation de données et Optimisation.
           </p>
           <div className="flex flex-wrap gap-3">
             <a
