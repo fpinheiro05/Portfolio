@@ -30,12 +30,6 @@ const competencies = [
       "Appréhender et construire des algorithmes, et sélectionner les algorithmes adéquats pour répondre à un problème donné.",
   },
   {
-    code: "C3",
-    title: "Administrer des systèmes informatiques communicants complexes",
-    description:
-      "Installer et configurer un poste de travail, et déployer des services dans une architecture réseau.",
-  },
-  {
     code: "C4",
     title: "Gérer des données de l'information",
     description:
@@ -64,23 +58,23 @@ const projects = [
     url: "https://github.com/fpinheiro05/BatailleNavale",
     competencies: ["C1", "C5", "C6"],
     notes: {
-      C1: "Développement de fonction pour le systeme de victoire, placements des bateaux, ...",
-      C5: "Projet réalisé en binôme, avec un suivi organisé via un board Trello pour planifier les étapes de développement.",
-      C6: "Répartition du travail par fonctionnalités au sein du binôme, chacun prenant en charge certaines fonctions du jeu.",
+      C1: "Réaliser un développement d'application",
+      C5: "Conduire un projet",
+      C6: "Collaborer au sein d'une équipe informatique",
     },
   },
   {
     name: "Terraria-Like",
     description:
-      "Projet de SAE des semestres 2 et 3 : un jeu de type bac à sable en Java, inspiré de Terraria.",
+      "Projet de SAE des semestres 2 et 3 : un jeu videp 2D en Java, inspiré de Terraria.",
     tags: ["Java", "SAE S2 / S3", "Jeu"],
     url: "https://github.com/fpinheiro05/Terraria-Like",
     competencies: ["C1", "C2", "C5", "C6"],
     notes: {
-      C1: "Développement de la classe Personnage et Joueur, ainsi que les sous classes",
-      C2: "Implémentation de l'algorithme de recherche en largeur (BFS) pour trouver le joueur.",
-      C5: "Suivi du projet via Trello sur les deux semestres, avec notamment le développement de la classe Personnage.",
-      C6: "Travail en équipe de 3, avec une implication particulière sur le refactoring du code.",
+      C1: "Réaliser un développement d'application",
+      C2: "Optimiser des applications",
+      C5: "Conduire un projet",
+      C6: "Collaborer au sein d'une équipe informatique",
     },
   },
   {
@@ -91,11 +85,11 @@ const projects = [
     url: "https://github.com/fpinheiro05/SiteWebBuvetteAssociative",
     competencies: ["C1", "C2", "C4", "C5", "C6"],
     notes: {
-      C1: "Fonctionnalité du choix du fournisseur",
-      C2: "Gestion des stocks",
-      C4: "Conception d'un modèle de données relationnel pour la gestion de la buvette, avec une attention portée à la sécurité des données.",
-      C5: "Cahier des charges fourni par l'association, avec un suivi de projet organisé autour de réunions régulières.",
-      C6: "Implication sur l'ensemble de la chaîne, à la fois back-end et front-end.",
+      C1: "Réaliser un développement d'application",
+      C2: "Optimiser des applications",
+      C4: "Gérer des données de l'information",
+      C5: "Conduire un projet",
+      C6: "Collaborer au sein d'une équipe informatique",
     },
   },
 ];
@@ -185,7 +179,7 @@ export default function Portfolio() {
             Étudiant en BUT Informatique — Parcours Administration, gestion et exploitation des données
           </p>
           <p className="mb-7 max-w-xl text-sm text-muted sm:text-base">
-            Exploitaion et Administration de Bases de données, Visualisation de données et Optimisation.
+            En recherche d'un stage de 12 à 16 semaines, débutant en Mars.
           </p>
           <div className="flex flex-wrap gap-3">
             <a
@@ -219,7 +213,7 @@ export default function Portfolio() {
             Je suis étudiant en 3e année de BUT Informatique, parcours « Administration, gestion et
             exploitation des données ». Cette formation prépare en particulier aux métiers
             d'administrateur de bases de données et de gestionnaire de grandes masses de
-            données, ainsi qu'aux métiers de développeur Big Data.
+            données, notament au métier de Data Engineer.
           </p>
           <p className="max-w-2xl">
             Ce portfolio présente mes compétences de BUT au prisme des
