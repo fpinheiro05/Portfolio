@@ -51,45 +51,45 @@ const competencies = [
 
 const projects = [
   {
-    name: "BatailleNavale",
+    name: "Bataille Navale",
     description:
       "Jeu de bataille navale en Java : placement des navires, tours de jeu et détection de victoire, jouable en console.",
-    tags: ["Java", "Jeu", "Logique"],
+    tags: ["Java"],
     url: "https://github.com/fpinheiro05/BatailleNavale",
     competencies: ["C1", "C5", "C6"],
     notes: {
-      C1: "Réaliser un développement d'application",
-      C5: "Conduire un projet",
-      C6: "Collaborer au sein d'une équipe informatique",
+      C1: "Développement d'un jeu en Java, jouable sur la console du terminal.",
+      C5: "Suivi du projet avec Trello.",
+      C6: "Travail en binôme.",
     },
   },
   {
     name: "Terraria-Like",
     description:
-      "Projet de SAE des semestres 2 et 3 : un jeu videp 2D en Java, inspiré de Terraria.",
-    tags: ["Java", "SAE S2 / S3", "Jeu"],
+      "Projet de SAE des semestres 2 et 3 : un jeu vidéo 2D en Java, inspiré de Terraria.",
+    tags: ["Java"],
     url: "https://github.com/fpinheiro05/Terraria-Like",
     competencies: ["C1", "C2", "C5", "C6"],
     notes: {
-      C1: "Réaliser un développement d'application",
-      C2: "Optimiser des applications",
-      C5: "Conduire un projet",
-      C6: "Collaborer au sein d'une équipe informatique",
+      C1: "Développement d'un jeu vidéo en 2D en Java, du style Terraria.",
+      C2: "Implémentation d'un algorithme BFS, pour le mouvement des PNJ.",
+      C5: "Suivi du projet via Trello, Github, et une réunion sur l'avancée du projet chaque semaine.",
+      C6: "Travail en équipe de 3.",
     },
   },
   {
-    name: "SiteWebBuvetteAssociative",
+    name: "Site Web d'une Buvette Associative",
     description:
-      "SAE de développement web du semestre 3 : site de gestion pour la buvette d'une association.",
-    tags: ["PHP", "SAE S3", "Web"],
+      "Projet de SAE de semestre 3 : site de gestion pour une buvette associative.",
+    tags: ["PHP"],
     url: "https://github.com/fpinheiro05/SiteWebBuvetteAssociative",
     competencies: ["C1", "C2", "C4", "C5", "C6"],
     notes: {
-      C1: "Réaliser un développement d'application",
-      C2: "Optimiser des applications",
-      C4: "Gérer des données de l'information",
-      C5: "Conduire un projet",
-      C6: "Collaborer au sein d'une équipe informatique",
+      C1: "Développement d'un site de gestion pour la buvette d'une association.",
+      C2: "Refactoring des méthodes et fonctions dans le code.",
+      C4: "Mise en place d'une base de données avec phpMyAdmin.",
+      C5: "Suivi du projet avec Trello, Github, et une réunion chaque semaine.",
+      C6: "Travail en équipe de 3.",
     },
   },
 ];
@@ -213,7 +213,7 @@ export default function Portfolio() {
             Je suis étudiant en 3e année de BUT Informatique, parcours « Administration, gestion et
             exploitation des données ». Cette formation prépare en particulier aux métiers
             d'administrateur de bases de données et de gestionnaire de grandes masses de
-            données, notament au métier de Data Engineer.
+            données, notamment au métier de Data Engineer.
           </p>
           <p className="max-w-2xl">
             Ce portfolio présente mes compétences de BUT au prisme des
@@ -354,11 +354,6 @@ export default function Portfolio() {
                           {t}
                         </span>
                       ))}
-                      {p.competencies.map((code) => (
-                        <span className={tagAccentClass} key={code}>
-                          {code}
-                        </span>
-                      ))}
                     </div>
                   </div>
                   <a
@@ -394,7 +389,7 @@ export default function Portfolio() {
         className="mx-auto flex max-w-[1040px] scroll-mt-6 flex-col flex-wrap items-start gap-4 px-5 py-12 sm:flex-row sm:items-center sm:justify-between sm:px-7 sm:py-16"
       >
         <span className="max-w-sm text-[13px] text-muted">
-          Contact / Information supplémentaires
+          Contact / Informations supplémentaires
         </span>
         <div className="flex flex-wrap gap-5">
           <a
